@@ -10,7 +10,6 @@ echo Enter your Instagram password:
 read PASSWD
 cd config
 echo "[Credentials]" > 'credentials.ini'
-pwd
 echo "username = $NAME" >> 'credentials.ini'
 echo "password = $PASSWD" >> 'credentials.ini'
 clear
